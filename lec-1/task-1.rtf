@@ -1,30 +1,32 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2870
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;\f2\fswiss\fcharset0 Helvetica-BoldOblique;
-\f3\fswiss\fcharset0 Helvetica-Bold;\f4\fmodern\fcharset0 Courier;}
+\f3\fswiss\fcharset0 Helvetica-Bold;\f4\fmodern\fcharset0 Courier;\f5\fnil\fcharset178 GeezaPro;
+}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
 {\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww33660\viewh21120\viewkind0
+\paperw11900\paperh16840\margl1440\margr1440\vieww33660\viewh18100\viewkind0
 \deftab720
 \pard\pardeftab720\sa280\qc\partightenfactor0
 
-\f0\fs144 \cf0 \expnd0\expndtw0\kerning0
+\f0\fs96 \cf0 \expnd0\expndtw0\kerning0
 Vacation Tracking System\kerning1\expnd0\expndtw0 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
 
-\fs96 \cf0 Vision :
-\fs28 \
-					
-\fs36 \expnd0\expndtw0\kerning0
-this system is specialized for manage vacation of employee efficiency . we make this system for Streamline human resources tasks in manage vacations and decrease Manual procedures 					with giving employee ability to manage this . the types of people which will benefit of this system is Human Resources Department - Employee - Managers - Company , value for this is 					Reducing the administrative workload, saving time for employees, managers, and HR, lowering administrative costs, and improving operational efficiency.this system is specialized for 					manage vacation of employee efficiency . we make this system for Streamline human resources tasks in manage vacations and decrease Manual procedures with giving employee ability to 					manage this . the types of people which will benefit of this system is Human Resources Department - Employee - Managers - Company , value for this is Reducing the administrative 					workload, saving time for employees, managers, and HR, lowering administrative costs, and improving operational efficiency.\
+\fs48 \cf0 Vision :\
+
+\fs28 \expnd0\expndtw0\kerning0
+this system is specialized for manage vacation of employee efficiency . we make this system for Streamline human resources tasks in manage vacations and decrease Manual procedures with giving employee ability to manage this . the types of people which will benefit of this system is Human Resources Department - Employee - Managers - Company , value for this is Reducing the administrative workload, saving time for employees, managers, and HR, lowering administrative costs, and improving operational efficiency.this system is specialized for 	manage vacation of employee efficiency . we make this system for Streamline human resources tasks in manage vacations and decrease Manual procedures with giving employee ability to  manage this . the types of people which will benefit of this system is Human Resources Department - Employee - Managers - Company , value for this is Reducing the administrative workload, saving time for employees, managers, and HR, lowering administrative costs, and improving operational efficiency.
+\fs36 \
 \
 
 \f1\fs24 \
 \
 \
 
-\f0\fs96 Function requirement :\
-					
-\fs36 The system shall validate and verify leave requests using business rules.\
+\f0\fs48 Function requirement :\
+
+\fs96 				
+\fs28 	The system shall validate and verify leave requests using business rules.\
 					The system shall provide access to vacation requests from the previous calendar year.\
 					The system shall allow vacation requests for dates up to 18 months in the future.\
 					The system shall send e-mail notifications to request manager approval.\
@@ -39,7 +41,8 @@ this system is specialized for manage vacation of employee efficiency . we make 
 					An HR clerk can add or remove nearly any record in the system.\
 \pard\pardeftab720\sa240\partightenfactor0
 \cf0 					A manager may award subordinates comp time, subject to certain limits set in the system.\
-					If HR clerks are employees, they use two separate login IDs.\
+					If HR clerks are employees, they use two separate login IDs.
+\fs36 \
 
 \f1\fs24 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
@@ -48,26 +51,29 @@ this system is specialized for manage vacation of employee efficiency . we make 
 \
 \
 
-\fs96 Non-Function requirement :\
+\fs48 Non-Function requirement :\
 
-\fs36 					he employee should have access to a visual calendarto help select and compare selected dates,\
-\
+\fs28 					he employee should have access to a visual calendarto help select and compare selected dates,\
+
+\fs36 \
 \
 
-\fs96 Constrains :\
-					
-\fs36 The system must use existing hardware and middleware.\
+\fs48 Constrains :\
+
+\fs96 				
+\fs28 	The system must use existing hardware and middleware.\
 					The system must be implemented as an extension of the existing intranet portal\
 					The system must use the existing portal's single-sign-on mechanism.					\
-					The interface for internal system queries must be provided as a Web service.
+					The interface for internal system queries must be provided as a Web service.\
+					The system must integrate with existing HR legacy systems.
+\fs36 	\
+
 \fs96 \
 
-\fs36 					The system must integrate with existing HR legacy systems.	\
+\fs48 Actors : \
 
-\fs96 \
-Actors : \
-					
-\fs36 employee ==> \
+\fs96 				
+\fs28 	employee ==> \
 							Manage Time\
 \
 					manager ==> \
@@ -83,17 +89,23 @@ Actors : \
 					\
 					system admin\
 							Back Up System Logs\
-		\
+		
+\fs36 \
 \
-Note : manger \'97\'97 generalization \'97> employee.   [he own all action for employee and other action specification for him ]
-\fs96 \
+
+\fs28 Note : manger \'97\'97 generalization \'97> employee.   [he own all action for employee and other action specification for him ]\
 ==========================================================\
-Status for req object :\
-					[ pending - approved	- cancelled - withdrawn -\outl0\strokewidth0 \strokec2 Rejected\outl0\strokewidth0  ]\
+
+\fs48 Status for req object :\
+
+\fs36 					[ pending - approved	- cancelled - withdrawn -Rejected ]\
 ==========================================================\
-Specification flow : \
-				
-\fs36 Manage Time\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\fs48 \cf0 Specification flow : \
+
+\fs96 				
+\fs28 Manage Time\
 					
 \f2\i\b - employee intranet portal to the VTS.\
 					- system show Vacation request statuses and outstanding leave balances for employee
@@ -109,19 +121,17 @@ Specification flow : \
 					- back to VTS Home Page\
 \
 					
-\f3\b\fs28 \cf2 \kerning1\expnd0\expndtw0 Alternate flow: Withdraw Request\
+\f3\b \cf2 \kerning1\expnd0\expndtw0 Alternate flow: Withdraw Request\
 					- [
-\f2\i\fs36 \cf0 \expnd0\expndtw0\kerning0
+\f2\i \cf0 \expnd0\expndtw0\kerning0
 Precondition
-\f3\i0\fs28 \cf2 \kerning1\expnd0\expndtw0 ]\
+\f3\i0 \cf2 \kerning1\expnd0\expndtw0 ]\
 							
 \f0\b0 - An employee has made a vacation time request\
 							-that request has yet to be approved or denied by an authorized manager. \
 \
 					- employee select vacation request one that is currently pending approval\
-					
-\fs36 - 
-\fs28 \cf0 \expnd0\expndtw0\kerning0
+					- \cf0 \expnd0\expndtw0\kerning0
 system displays a withdrawal confirmation prompt\cf2 \kerning1\expnd0\expndtw0 \
 					- employee  confirm the request to withdraw the previously submitted \
 							\cf0 \expnd0\expndtw0\kerning0
@@ -139,9 +149,9 @@ If Confirm:\
 
 \f3\b 					Alternate flow:Cancel Approved Request\
 					- [
-\f2\i\fs36 \cf0 \expnd0\expndtw0\kerning0
+\f2\i \cf0 \expnd0\expndtw0\kerning0
 Precondition
-\f3\i0\fs28 \cf2 \kerning1\expnd0\expndtw0 ]\
+\f3\i0 \cf2 \kerning1\expnd0\expndtw0 ]\
 
 \f0\b0 							- employee has a vacation time request that has been approved\
 							-vacation is scheduled for some time in the future or the recent past (previous 5 business days). \
@@ -157,19 +167,16 @@ Precondition
 					- system changed the state of the request  to canceled\
 					- system return The time allowances used to make the request  to employee\
 					- system sent an e-mail notification  to the manager,\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
-
-\fs36 \cf0 \expnd0\expndtw0\kerning0
+\cf0 \expnd0\expndtw0\kerning0
 \
 					
-\f3\b\fs28 \cf2 \kerning1\expnd0\expndtw0 Alternate flow: Edit Pending Request\
+\f3\b \cf2 \kerning1\expnd0\expndtw0 Alternate flow: Edit Pending Request\
 					- [
-\f2\i\fs36 \cf0 \expnd0\expndtw0\kerning0
+\f2\i \cf0 \expnd0\expndtw0\kerning0
 Precondition
-\f3\i0\fs28 \cf2 \kerning1\expnd0\expndtw0 ]\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+\f3\i0 \cf2 \kerning1\expnd0\expndtw0 ]\
 
-\f0\b0 \cf2 							- employee has made a vacation time request\
+\f0\b0 							- employee has made a vacation time request\
 							-request has yet to be approved or denied by an authorized manager. . \
 					- employee selects a request to edit, one that is pending approval
 \f3\b \
@@ -189,16 +196,13 @@ Follow the "Withdraw Request" alternative flow.\cf2 \kerning1\expnd0\expndtw0 \
 							-system accept changes in req\
 							- system back to home page \
 						- not valid show error and still in view editable\
-						
-\fs36 \cf0 \expnd0\expndtw0\kerning0
+						\cf0 \expnd0\expndtw0\kerning0
 \
-
-\fs28 \cf2 \kerning1\expnd0\expndtw0 \
+\cf2 \kerning1\expnd0\expndtw0 \
 
 \f3\b \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
 
-\f0\b0\fs36 \cf0 \expnd0\expndtw0\kerning0
+\f0\b0 \cf0 \expnd0\expndtw0\kerning0
 				Approve Request\
 					-  intranet portal to the VTS or from email .\
 					- system show Vacation request statuses and outstanding leave balances for employee and Pending vacation requests from subordinates\
@@ -207,63 +211,62 @@ Follow the "Withdraw Request" alternative flow.\cf2 \kerning1\expnd0\expndtw0 \
 								- required to enter an explanation reason\
 					- system  update req status\
 					-system send email to employee how introduce req if refused or accepted \
-				
+				\
+
 \fs96 \
-\
-=====================================\
-Class digram [data model]:\
-\
+
+\fs36 =====================================\
+
+\fs48 Class digram [data model]:\
+
+\fs96 \
 \pard\pardeftab720\partightenfactor0
 
-\f3\b\fs48 \cf0 \ul \ulc0 \outl0\strokewidth0 \strokec2 VacationGrant\
-\
+\f3\b\fs48 \cf0 \ul \ulc0 VacationGrant\
 
-\f0\b0 \ulnone 	 Accrued hours :number\
-	Utilized hours \outl0\strokewidth0 :number\outl0\strokewidth0 \strokec2 \
-	Expiration Date\outl0\strokewidth0 \
+\f0\b0 \ulnone 	
+\fs28  Accrued hours :number\
+	Utilized hours :number\
+	Expiration Date\
 	\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
 	Hours deducted(hours:number) void\
-	Add hours(hours:number) void\
+	Add hours(hours:number) void
+\fs48 \
 \
 
-\f3\b \ul \outl0\strokewidth0 \strokec2 VacationRequestDay
+\f3\b \ul VacationRequestDay
 \f1\b0\fs24 \ulnone \
 \pard\pardeftab720\partightenfactor0
 
-\f4\fs26 \cf0 \strokec2 	
-\f0\fs48 \strokec2 date : Date\
+\f4\fs28 \cf0 	
+\f0 date : Date\
 	requestedHours : Number
-\f4\fs26 \strokec2 \
+\f4\fs26 \
 \pard\pardeftab720\partightenfactor0
 
-\f3\b\fs48 \cf0 \ul \ulc0 \outl0\strokewidth0 \
-\pard\pardeftab720\partightenfactor0
-\cf0 \ulc0 VacationRequest\
-\pard\pardeftab720\partightenfactor0
+\f3\b\fs48 \cf0 \ul \
+VacationRequest\
 
-\f0\b0 \cf0 \ulnone 	reqId:number
-\fs96 \
-
-\fs48 	startDateTime :\outl0\strokewidth0 \strokec2 DateTime\outl0\strokewidth0 \
-	EndDateTime :\outl0\strokewidth0 \strokec2 DateTime\outl0\strokewidth0 \
-	reqStatus:string[pending - approved- cancelled - withdrawn -\outl0\strokewidth0 \strokec2 Rejected\outl0\strokewidth0 ]\
-\pard\pardeftab720\partightenfactor0
-\cf0 \outl0\strokewidth0 \strokec2 	vacation\uc0\u1574 ategory\
-	title\outl0\strokewidth0 :string\outl0\strokewidth0 \strokec2 \
-	description\outl0\strokewidth0 :string\
-\pard\pardeftab720\partightenfactor0
-\cf0 	\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\f0\b0\fs28 \ulnone 	reqId:number\
+	startDateTime :DateTime\
+	EndDateTime :DateTime\
+	reqStatus:string[pending - approved- cancelled - withdrawn -Rejected]\
+	vacation
+\f5 \'c6
+\f0 ategory\
+	title:string\
+	description:string\
+	\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
 	changeReqStatus(status:string[pending - approved- cancelled - withdrawn -Rejected])\
 	validateRequst() void\
-\
-\
-\pard\pardeftab720\partightenfactor0
 
-\f3\b \cf0 \ul \ulc0 Employee\
-\pard\pardeftab720\partightenfactor0
+\fs48 \
+\
 
-\f0\b0 \cf0 \ulnone 	id:number
-\f3\b \ul \ulc0 \
+\f3\b\fs28 \ul Employee\
+
+\f0\b0 \ulnone 	id:number
+\f3\b \ul \
 
 \f0\b0 \ulnone 	name:string\
 	location: string\
